@@ -26,11 +26,8 @@ const RestaurantTable = ({ restaurants, onDelete }) => {
     };
 
     return (
-        <div className="bg-slate-900 text-white min-h-screen flex flex-col">
-            <h1 className="text-2xl mb-8 text-center mt-10">
-                Restaurant Table
-            </h1>
-            <div className="overflow-x-auto">
+        <div className="bg-slate-900 text-white min-h-screen flex flex-col  justify-center">
+            <div className="overflow-x-auto mt-24">
                 <table className="w-full table-auto">
                     <thead className="bg-yellow-500 hover:bg-yellow-700">
                         <tr className="text-center">
@@ -78,7 +75,7 @@ const RestaurantTable = ({ restaurants, onDelete }) => {
                                 <td className="border px-2 py-4 sm:px-6">
                                     {restaurant.website}
                                 </td>
-                                <td className="border px-2 py-4 sm:px-6 flex justify-center">
+                                <td className=" px-2 py-4 sm:px-6 flex justify-center">
                                     <Link
                                         to={`/edit/${restaurant.id}`}
                                         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"

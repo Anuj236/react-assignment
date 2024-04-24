@@ -51,7 +51,7 @@ const App = () => {
                     <ul className="flex justify-end space-x-4 bg-slate-950 text-white p-4">
                         <li className="flex-grow text-center">
                             <h1 className="text-white text-2xl whitespace-nowrap">
-                                Restaurant Table
+                                Restro
                             </h1>
                         </li>
                         <li className=" flex space-x-2">
@@ -64,7 +64,7 @@ const App = () => {
 
                             <Link
                                 to="/add"
-                                className="relative block text-white  flex items-center justify-center rounded p-2 hover:bg-slate-900 hover:text-gray-300"
+                                className="relative block text-white  flex items-center justify-center rounded p-2 hover:bg-slate-900 hover:text-gray-300 whitespace-nowrap"
                             >
                                 Add Restaurant
                             </Link>

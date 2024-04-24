@@ -19,19 +19,3 @@ code {
 }
 
 
-.custom-scrollbar::-webkit-scrollbar {
-  @apply w-2 rounded-full; 
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  @apply bg-slate-700 rounded-full; 
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply  rounded-full; 
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  @apply bg-black ; 
-}
-

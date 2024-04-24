@@ -13,7 +13,7 @@ const DeleteRestaurant = ({ restaurant, onDelete, onCancel }) => {
     };
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-slate-900 ml-8 ">
+        <div className="flex items-center justify-center min-h-screen bg-slate-900  ">
             <div className="max-w-md mx-auto bg-zinc-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="p-8">
