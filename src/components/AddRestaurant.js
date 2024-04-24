@@ -37,7 +37,7 @@ const AddRestaurant = ({ onAdd }) => {
 
   return (
 <div className="bg-slate-900 min-h-screen flex items-center justify-center mt-8">
-<div className="bg-zinc-900 p-8 rounded  w-full max-w-md">
+<div className="bg-zinc-900 p-8 rounded  w-full max-w-md ">
 <h2 className="text-2xl text-white text-center mb-6">Add Restaurant</h2>
 <form onSubmit={handleSubmit}>
   <div>
