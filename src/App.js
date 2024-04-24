@@ -49,6 +49,11 @@ const App = () => {
             <div>
                 <nav className="fixed top-0 w-full z-50  ">
                     <ul className="flex justify-end space-x-4 bg-slate-950 text-white p-4">
+                        <li className="flex-grow text-center">
+                            <h1 className="text-white text-2xl whitespace-nowrap">
+                                Restaurant Table
+                            </h1>
+                        </li>
                         <li className=" flex space-x-2">
                             <Link
                                 to="/"
